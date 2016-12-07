@@ -1,0 +1,68 @@
+<!--=============== TrigMon options DTD =======================-->
+<!--++++++++++ Version 1.0  Ped Miocinovic 2006-10-04 ++++++++-->
+<!ELEMENT slowmo (rate,temp,power,l1,l2,l3,rfpower,scaler,scalerrms,db)>
+<!ELEMENT rate (baritem+)>
+<!ELEMENT temp (baritem+)>
+<!ELEMENT power (baritem+)>
+<!ELEMENT l1 (baritem+)>
+<!ELEMENT l2 (baritem+)>
+<!ELEMENT l3 (baritem+)>
+<!ELEMENT rfpower (baritem+)>
+<!ELEMENT scaler (baritem+)>
+<!ELEMENT scalerrms (baritem+)>
+<!ELEMENT baritem (range+)>
+<!ELEMENT range (#PCDATA)>
+<!ELEMENT db (#PCDATA)>
+
+<!-- Group display definitions, gives lenght of items -->
+<!ATTLIST slowmo
+delay CDATA #REQUIRED
+rf (adc|dbm|t) #REQUIRED>
+<!ATTLIST rate
+length CDATA #REQUIRED
+scale  CDATA #REQUIRED>
+<!ATTLIST temp
+length CDATA #REQUIRED
+scale  CDATA #REQUIRED>
+<!ATTLIST power
+length CDATA #REQUIRED
+scale  CDATA #REQUIRED>
+<!ATTLIST l1
+length CDATA #REQUIRED
+scale  CDATA #REQUIRED>
+<!ATTLIST l2
+length CDATA #REQUIRED
+scale  CDATA #REQUIRED>
+<!ATTLIST l3
+length CDATA #REQUIRED
+scale  CDATA #REQUIRED>
+<!ATTLIST rfpower
+length CDATA #REQUIRED
+scale  CDATA #REQUIRED>
+<!ATTLIST scaler
+length CDATA #REQUIRED
+scale  CDATA #REQUIRED>
+<!ATTLIST scalerms
+length CDATA #REQUIRED
+scale  CDATA #REQUIRED>
+
+<!-- Bar display must give range -->
+<!ATTLIST baritem
+label  CDATA #REQUIRED
+top    CDATA #REQUIRED
+bottom CDATA #REQUIRED
+scale  (lin|log) #REQUIRED
+avg    CDATA #REQUIRED>
+
+<!-- Range spec definition, color given in hex #RRGGBB -->
+<!ATTLIST range
+start  CDATA #REQUIRED
+end    CDATA #REQUIRED
+colour CDATA #REQUIRED>
+
+<!-- DB settings, password is not stored -->
+<!ATTLIST db
+host CDATA #REQUIRED
+user CDATA #REQUIRED
+name CDATA #REQUIRED
+sql  (on|off) #REQUIRED>

@@ -1,0 +1,902 @@
+AnitaViewer: starting AnitaViewer program.
+hello1
+hello1
+hello2
+hello3
+hello4
+hello5
+hello6
+hello7
+hello8
+hello1
+hello
+helloWorld0
+helloWorld1
+14316837
+14316041
+14313537
+14310369
+14304676
+14303276
+14300763
+14292023
+14292021
+14290416
+helloWorld5
+hello
+helloWorld0
+helloWorld1
+helloWorld3
+helloWorld4
+helloWorld5
+hello
+helloWorld0
+helloWorld1
+helloWorld3
+helloWorld4
+helloWorld5
+hello
+helloWorld0
+helloWorld1
+helloWorld3
+helloWorld4
+helloWorld5
+hello
+helloWorld0
+helloWorld1
+helloWorld3
+helloWorld4
+helloWorld5
+hello
+helloWorld0
+helloWorld1
+helloWorld3
+helloWorld4
+helloWorld5
+hello
+helloWorld0
+helloWorld1
+helloWorld3
+helloWorld4
+helloWorld5
+hello
+helloWorld0
+helloWorld1
+helloWorld3
+helloWorld4
+helloWorld5
+hello
+helloWorld0
+helloWorld1
+helloWorld3
+helloWorld4
+helloWorld5
+hello
+helloWorld0
+helloWorld1
+helloWorld3
+helloWorld4
+helloWorld5
+hello
+helloWorld0
+helloWorld1
+helloWorld3
+helloWorld4
+Last waveform
+i 0 j 0
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 0 j 1
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 0 j 2
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 0 j 3
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 0 j 4
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 0 j 5
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 0 j 6
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 0 j 7
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 0 j 8
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 1 j 0
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 1 j 1
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 1 j 2
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 1 j 3
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 1 j 4
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 1 j 5
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 1 j 6
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 1 j 7
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 1 j 8
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 2 j 0
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 2 j 1
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 2 j 2
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 2 j 3
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 2 j 4
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 2 j 5
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 2 j 6
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 2 j 7
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 2 j 8
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 3 j 0
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 3 j 1
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 3 j 2
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 3 j 3
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 3 j 4
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 3 j 5
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 3 j 6
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 3 j 7
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 3 j 8
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 4 j 0
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 4 j 1
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 4 j 2
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 4 j 3
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 4 j 4
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 4 j 5
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 4 j 6
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 4 j 7
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 4 j 8
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 5 j 0
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 5 j 1
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 5 j 2
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 5 j 3
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 5 j 4
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 5 j 5
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 5 j 6
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 5 j 7
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 5 j 8
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 6 j 0
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 6 j 1
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 6 j 2
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 6 j 3
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 6 j 4
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 6 j 5
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 6 j 6
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 6 j 7
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 6 j 8
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 7 j 0
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 7 j 1
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 7 j 2
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 7 j 3
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 7 j 4
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 7 j 5
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 7 j 6
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 7 j 7
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 7 j 8
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 8 j 0
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 8 j 1
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 8 j 2
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 8 j 3
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 8 j 4
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 8 j 5
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 8 j 6
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 8 j 7
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 8 j 8
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 9 j 0
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 9 j 1
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 9 j 2
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 9 j 3
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 9 j 4
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 9 j 5
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 9 j 6
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 9 j 7
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 9 j 8
+yes
+received 10
+avg
+avg
+avg
+avg
+avg
+yes
+i 10 j 0
+yes
+received 10
+avg
+avg
+avg
+avg

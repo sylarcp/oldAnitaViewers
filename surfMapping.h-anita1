@@ -1,0 +1,72 @@
+/* 
+ * surfMapping.h
+ */
+
+// This file is map between antenna number in internal numbering scheme and
+// corresponding RF channel, and also phi sector
+
+#include "aviewdefs.h"
+
+
+/* Maping per GV email of 05/22/06, in 1-counting mode for SURFs, 
+   1-counting for channels; 1-counting for phi sectors
+   Each entry {H_SURF,H_CHAN,V_SURF,V_CHAN,PHI}; 
+   i.e. H_SURF==Horizontal channel SURF, etc.
+   For Veto's and Nadirs, {SURF,CHAN,SURF,CHAN,0}; second being redundant
+*/
+struct SurfMapType surfMap[]={
+  {2,5,2,1,2},      // Eight top ring antennas
+  {4,5,4,1,4},
+  {6,5,6,1,6},
+  {8,5,8,1,8},
+  {2,6,2,2,10},
+  {4,6,4,2,12},
+  {6,6,6,2,14},
+  {8,6,8,2,16},
+  {1,5,1,1,1},      // Eight middle ring antennas
+  {3,5,3,1,3},
+  {5,5,5,1,5},
+  {7,5,7,1,7},
+  {1,6,1,2,9},
+  {3,6,3,2,11},
+  {5,6,5,2,13},
+  {7,6,7,2,15},
+  {1,7,1,3,1},      // Sixteen bottom ring antennas
+  {2,7,2,3,2},
+  {3,7,3,3,3},
+  {4,7,4,3,4},
+  {5,7,5,3,5},
+  {6,7,6,3,6},
+  {7,7,7,3,7},
+  {8,7,8,3,8},
+  {1,8,1,4,9},
+  {2,8,2,4,10},
+  {3,8,3,4,11},
+  {4,8,4,4,12},
+  {5,8,5,4,13},
+  {6,8,6,4,14},
+  {7,8,7,4,15},
+  {8,8,8,4,16},
+#if N_SURF-10
+  {9,1,9,1,0},   // Veto 1 (Bicone)
+  {9,2,9,2,0},   // Veto 2 (Bicone)
+  {9,3,9,3,0},   // Veto 3 (Bicone)
+  {9,4,9,4,0},   // Veto 4 (Bicone)
+  {9,5,9,5,0},   // Veto 5 (Discone)
+  {9,6,9,6,0},   // Veto 6 (Discone)
+  {9,7,9,7,0},   // Veto 7 (Discone)
+  {9,8,9,8,0},   // Veto 8 (Discone)
+#endif
+#if N_SURF-9
+  {9,1,10,1,0}, // Nadir 1
+  {9,2,10,2,0}, // Nadir 2
+  {9,3,10,3,0}, // Nadir 3
+  {9,4,10,4,0}, // Nadir 4
+  {9,5,10,5,0}, // Nadir 5
+  {9,6,10,6,0}, // Nadir 6
+  {9,7,10,7,0}, // Nadir 7
+  {9,8,10,8,0}  // Nadir 8
+#endif
+};
+
+

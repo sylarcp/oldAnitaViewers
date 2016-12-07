@@ -1,0 +1,13 @@
+In order to compile ANITA GSE GUIs in a static mode on linux you will need static versions of some standard libraries. The static versions are not standard these days, though. I was only able to setup Fedora Core 3 systems to compile 
+GUIs staticly and here are some pointers;
+
+* Compile wxWidgets 2.3.6 with './configure --enable-static' and install (default will be /usr/local which is what you want)
+* Compile atk-1.8.0 with './configure --with-included-modules --enable-static --disable-shared' and install
+* Compile pango-1.4.1 with './configure --with-included-modules --enable-static --disable-shared' and install
+* Compile gtk+-2.4.14 with './configure --disable-modules --with-included-loaders --enable-static'. The compilation will fail half-way through. Run make again (no re-configuration) and it will succeed. Install. 
+
+I think this should do it. Compiling GUIs with 'make STATIC=yes' will use newly installed static libraries. You can check that you got static executable by running 'ldd GTK2/AnitaViewer'. It should say 'not a dynamic executable'.
+
+-- Ped
+ 
+

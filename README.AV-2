@@ -1,0 +1,37 @@
+*
+* Memo regarding the changes in AV for ANITA-2 flight
+*				last modified 13-Jul-08 SM.
+*
+
+- UNICODE related changes done in Jan 08, which may not be necessary
+after all, if we are to use ANSI compiled libraries only.
+
+- N_SURF changed to 10. However the code also use ACTIVE_SURFS defined
+in flight code. So, N_SURF is equated to ACTIVE_SURFS to reduce the
+confusion and possible change only in one place but not on the other.
+
+ (it is assumed that the ANITA-1 geometry/assignment should be used
+  if N_SURF is 9, and ANITA-2 for N_SURF=10, throughout the code) 
+
+- Added new variable Nnad for nadir antenna, one more antenna layer
+without changing NLayer, and the nadir definition by copying QRH in
+"PayloadPanel" (payload.h and cpp).
+
+- wxGridSizer for rf waveform used "wrong" parameter to determine the
+number of columns, ACTIVE_SURFS-1, changed to PHI_SECTORS/2, instead.
+Also, (unnecessary) raw numbers in wxGridSizer call is dropped.
+
+- Added one more raw of rf windows in "OrderRFtabs" (AviewFrame.cpp).
+
+- nadir position is calculated (91.87"-50cm)*sin/cos(22.79deg) to
+bottom beam center. bottom is assumed 95cm*cos(10) above that.
+
+- surf channel assigned with Ryan's web page (12-Jul) which made AV-2 
+incompatible with anita-1 data. To make it compaitble again, put 
+surfMapping.h-anita1 back and set ACTIVE_SURFS=9 in flightSoft.
+
+- Amir's data viewers are incorporated
+
+*** TO DO
+
+- change trigger assignments.

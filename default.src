@@ -1,0 +1,917 @@
+<slowmo delay="2" rf="adc" >
+<rate scale="0,100" length="2">
+	<baritem label="1 min" bottom="    0" top="  100" scale="lin" avg="1">
+		<range start="   30" end="   60" colour="#00FF00" />
+		<range start="   20" end="   70" colour="#DAA520" />
+	</baritem>
+	<baritem label="10 min" bottom="    0" top="  100" scale="lin" avg="1">
+		<range start="   30" end="   60" colour="#00FF00" />
+		<range start="   20" end="   70" colour="#DAA520" />
+	</baritem>
+</rate>
+<temp scale="-80,80" length="4">
+	<baritem label="sbs" bottom="  -80" top="   80" scale="lin" avg="1">
+		<range start="  -50" end="    0" colour="#0000FF" />
+		<range start="    0" end="   50" colour="#00FF00" />
+		<range start="   50" end="   70" colour="#DAA520" />
+	</baritem>
+	<baritem label="surf" bottom="  -80" top="   80" scale="lin" avg="1">
+		<range start="  -50" end="    0" colour="#0000FF" />
+		<range start="    0" end="   50" colour="#00FF00" />
+		<range start="   50" end="   70" colour="#DAA520" />
+	</baritem>
+	<baritem label="turf" bottom="  -80" top="   80" scale="lin" avg="1">
+		<range start="  -50" end="    0" colour="#0000FF" />
+		<range start="    0" end="   50" colour="#00FF00" />
+		<range start="   50" end="   70" colour="#DAA520" />
+	</baritem>
+	<baritem label="rad" bottom="  -80" top="   80" scale="lin" avg="1">
+		<range start="  -50" end="    0" colour="#0000FF" />
+		<range start="    0" end="   50" colour="#00FF00" />
+		<range start="   50" end="   70" colour="#DAA520" />
+	</baritem>
+</temp>
+<power scale="" length="4">
+	<baritem label="PV" bottom="    0" top="   75" scale="lin" avg="1">
+		<range start="   47" end="   61" colour="#00FF00" />
+	</baritem>
+	<baritem label="24V" bottom="    0" top="   75" scale="lin" avg="1">
+		<range start=" 23.6" end=" 30.6" colour="#00FF00" />
+	</baritem>
+	<baritem label="PV_I" bottom="    0" top="   30" scale="lin" avg="1">
+		<range start="    7" end="   11" colour="#00FF00" />
+	</baritem>
+	<baritem label="24I" bottom="    0" top="   30" scale="lin" avg="1">
+		<range start=" 13.4" end="   19" colour="#00FF00" />
+	</baritem>
+</power>
+<rfpower scale="0,,25000" length="96">
+	<baritem label="10BV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="2BV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="16BV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="8BV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="10BH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="2BH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="16BH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="8BH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="12BV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="4BV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="14BV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="6BV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="12BH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="4BH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="14BH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="6BH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="16MV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="8MV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="12MV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="4MV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="16MH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="8MH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="12MH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="4MH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="14MV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="6MV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="10MV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="2MV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="14MH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="6MH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="10MH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="2MH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="12TV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="4TV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="14TV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="6TV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="12TH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="4TH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="14TH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="6TH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="10TV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="2TV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="16TV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="8TV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="10TH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="2TH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="16TH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="8TH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="13BV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="5BV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="9BV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="1BV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="13BH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="5BH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="9BH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="1BH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="15BV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="7BV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="11BV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="3BV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="15BH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="7BH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="11BH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="3BH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="11MV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="3MV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="13MV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="5MV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="11MH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="3MH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="13MH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="5MH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="9MV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="1MV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="15MV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="7MV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="9MH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="1MH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="15MH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="7MH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="15TV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="7TV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="11TV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="3TV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="15TH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="7TH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="11TH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="3TH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="13TV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="5TV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="9TV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="1TV" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="13TH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="5TH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="9TH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+	<baritem label="1TH" bottom="    0" top="25000" scale="lin" avg="1">
+		<range start="    0" end=" 6600" colour="#0000FF" />
+		<range start=" 6600" end="13300" colour="#00FF00" />
+		<range start="13300" end="20500" colour="#DAA520" />
+	</baritem>
+</rfpower>
+<scaler scale="0,8" length="96">
+	<baritem label="01" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="09" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="17" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="25" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="33" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="41" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="49" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="57" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="65" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="73" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="81" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="89" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="02" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="10" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="18" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="26" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="34" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="42" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="50" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="58" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="66" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="74" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="82" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="90" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="03" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="11" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="19" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="27" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="35" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="43" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="51" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="59" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="67" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="75" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="83" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="91" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="04" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="12" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="20" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="28" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="36" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="44" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="52" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="60" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="68" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="76" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="84" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="92" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="05" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="13" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="21" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="29" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="37" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="45" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="53" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="61" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="69" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="77" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="85" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="93" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="06" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="14" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="22" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="30" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="38" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="46" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="54" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="62" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="70" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="78" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="86" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="94" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="07" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="15" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="23" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="31" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="39" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="47" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="55" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="63" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="71" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="79" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="87" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="95" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="08" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="16" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="24" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="32" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="40" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="48" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="56" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="64" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="72" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="80" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="88" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+	<baritem label="96" bottom="    0" top="    8" scale="log" avg="1">
+		<range start="    5" end="    6" colour="#00FF00" />
+		<range start="    4" end="  7.5" colour="#DAA520" />
+	</baritem>
+</scaler>
+<db host="128.175.112.58" user="gui" name="anita_0101d" sql="off" />
+</slowmo>

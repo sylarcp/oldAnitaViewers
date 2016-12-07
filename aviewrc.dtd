@@ -1,0 +1,85 @@
+<!--=============== Aviewrc options DTD =======================-->
+<!--++++++++++ Version 0.1  Ped Miocinovic 2006-04-15 ++++++++-->
+<!ELEMENT aview (temp,current,voltage,rf,rfabs,db,aux,rate)>
+<!ELEMENT temp (baritem+)>
+<!ELEMENT disk (baritem+)>
+<!ELEMENT queue (baritem+)>
+<!ELEMENT current (textitem+)>
+<!ELEMENT voltage (textitem+)>
+<!ELEMENT baritem (range+)>
+<!ELEMENT textitem (range+)>
+<!ELEMENT rate (baritem)>
+<!ELEMENT range (#PCDATA)>
+<!ELEMENT rf (textitem+)>
+<!ELEMENT rfabs (textitem+)>
+<!ELEMENT db (#PCDATA)>
+<!ELEMENT aux (textitem+)>
+
+<!-- Temperature, current and voltage display definitions, gives lenght of items -->
+<!ATTLIST temp
+length CDATA #REQUIRED>
+<!ATTLIST disk
+length CDATA #REQUIRED>
+<!ATTLIST queue
+length CDATA #REQUIRED>
+<!ATTLIST current
+length CDATA #REQUIRED>
+<!ATTLIST voltage
+length CDATA #REQUIRED>
+
+<!-- Bar display must give range -->
+<!ATTLIST baritem
+label  CDATA #REQUIRED
+top    CDATA #REQUIRED
+bottom CDATA #REQUIRED
+scale (lin|log) #REQUIRED
+avg    CDATA #REQUIRED>
+<!ATTLIST textitem
+label  CDATA #REQUIRED>
+
+<!-- Range spec definition, color given in hex #RRGGBB -->
+<!ATTLIST range
+start  CDATA #REQUIRED
+end    CDATA #REQUIRED
+colour CDATA #REQUIRED>
+
+<!-- RF view format -->
+<!ATTLIST rf
+overview  (surf|phi|payload|newphi) #REQUIRED
+style     (mesh|solid) #REQUIRED
+reference (rms|absolute) #REQUIRED
+voltage   (on|off) #REQUIRED
+fft       (on|off) #REQUIRED
+power     (on|off) #REQUIRED
+clockrf   (on|off) #REQUIRED
+tab       (voltage|fft|power) #REQUIRED
+tabscale  CDATA #REQUIRED
+clkscale  CDATA #REQUIRED
+delay     CDATA #REQUIRED
+phimaskcolour_v  CDATA #REQUIRED
+phimaskcolour_v  CDATA #REQUIRED
+l3colour_v  CDATA #REQUIRED
+l3colour_h  CDATA #REQUIRED
+compass   (on|off) #REQUIRED
+length    CDATA #REQUIRED>
+<!-- Absolute RF value scaling -->
+<!ATTLIST rfabs
+length CDATA #REQUIRED>
+
+<!-- DB settings, password is not stored -->
+<!ATTLIST db
+host CDATA #REQUIRED
+user CDATA #REQUIRED
+name CDATA #REQUIRED
+sql  (on|off)   #REQUIRED
+crc  (on|off)   #REQUIRED
+run  (on|off)   #REQUIRED>
+
+<!-- Auxillary info format -->
+<!ATTLIST aux
+gps  (adu5|g12) #REQUIRED
+length    CDATA #REQUIRED>
+
+<!-- Event rate format -->
+<!ATTLIST rate
+step   CDATA  #REQUIRED>

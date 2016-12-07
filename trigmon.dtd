@@ -1,0 +1,60 @@
+<!--=============== TrigMon options DTD =======================-->
+<!--++++++++++ Version 1.0  Ped Miocinovic 2006-05-29 ++++++++-->
+<!ELEMENT trigmon (turf,surf,db)>
+<!ELEMENT turf (l1,l2,l3)>
+<!ELEMENT l1 (baritem+)>
+<!ELEMENT l2 (baritem+)>
+<!ELEMENT l3 (baritem+)>
+<!ELEMENT surf (rfpower,scaler,threshold)>
+<!ELEMENT rfpower (baritem+)>
+<!ELEMENT scaler (baritem+)>
+<!ELEMENT threshold (baritem+)>
+<!ELEMENT baritem (range+)>
+<!ELEMENT range (#PCDATA)>
+<!ELEMENT db (#PCDATA)>
+
+<!-- Group display definitions, gives lenght of items -->
+<!ATTLIST surf
+lock (on|off) #REQUIRED
+dynamic (on|off) #REQUIRED
+rf (adc|dbm|t) #REQUIRED>
+<!ATTLIST l1
+length CDATA #REQUIRED
+scale  CDATA #REQUIRED>
+<!ATTLIST l2
+length CDATA #REQUIRED
+scale  CDATA #REQUIRED>
+<!ATTLIST l3
+length CDATA #REQUIRED
+scale  CDATA #REQUIRED>
+<!ATTLIST rfpower
+length CDATA #REQUIRED
+scale  CDATA #REQUIRED>
+<!ATTLIST scaler
+length CDATA #REQUIRED
+scale  CDATA #REQUIRED>
+<!ATTLIST threshold
+length CDATA #REQUIRED
+scale  CDATA #REQUIRED>
+
+<!-- Bar display must give range -->
+<!ATTLIST baritem
+label  CDATA #REQUIRED
+top    CDATA #REQUIRED
+bottom CDATA #REQUIRED
+scale  (lin|log) #REQUIRED
+avg    CDATA #REQUIRED>
+
+<!-- Range spec definition, color given in hex #RRGGBB -->
+<!ATTLIST range
+start  CDATA #REQUIRED
+end    CDATA #REQUIRED
+colour CDATA #REQUIRED>
+
+<!-- DB settings, password is not stored -->
+<!ATTLIST db
+host CDATA #REQUIRED
+user CDATA #REQUIRED
+name CDATA #REQUIRED
+sql  (on|off) #REQUIRED>
+crc  (on|off) #REQUIRED>

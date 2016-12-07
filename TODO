@@ -1,0 +1,10 @@
+FOR GUI
+-------
+* Change splash image with new picture of ANITA (needs better resolution image from Marc)
+* Retro indexing might not be optimal for retreiving data from some specific time period. Think of a better way to handle it, through UTC time requests.
+
+FOR HOWTO
+---------
+
+
+
